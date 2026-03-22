@@ -9,3 +9,7 @@
 body {
     width: 100vw;
 }
+
+section {
+    padding: 100px 200px;
+}

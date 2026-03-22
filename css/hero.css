@@ -22,3 +22,30 @@
 .left p {
     color: white;
 }
+
+.btn{
+ display: flex;
+ margin: 10px 0;
+ gap: 20px;
+}
+
+.btn button {
+    padding: 10px 20px;
+    font-size: 1.3rem;
+    background: white;
+    color: orange;
+    border: none;
+    border-radius: 2rem;
+    transition: all  0.4s ease-in-out;
+}
+
+.btn button:hover {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.btn button:active {
+    transform: scale(0.7);
+}
+
